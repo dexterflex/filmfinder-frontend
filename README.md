@@ -1,3 +1,31 @@
+# Movie Explorer Frontend
+
+Movie Explorer is a full-stack web application that allows users to explore, search, and view details of various movies. The frontend of the application is built using **React** and integrates with the **TMDB API** to fetch real-time movie data.
+
+## Features
+
+- **Explore Movies**: Browse popular, top-rated, and upcoming movies.
+- **Search Functionality**: Search for movies by title, genre, or keyword.
+- **Movie Details**: View detailed information about movies, including synopsis, cast, ratings, and more.
+- **User Authentication**: Sign up, log in, and manage user accounts.
+- **Favorites**: Add movies to your favorites list and manage them from a personalized dashboard.
+
+## Tech Stack
+
+- **Frontend Framework**: React
+- **Routing**: React Router
+- **Styling**: CSS and Styled Components
+- **External API**: TMDB (The Movie Database) API
+- **State Management**: React Hooks and Context API
+- **Deployment**: Vercel
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/movie-explorer-frontend.git
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
