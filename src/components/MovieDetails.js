@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import movieService from '../services/movieService';
+import { HashLoader } from 'react-spinners';
 
 const MovieDetails = () => {
     const { id } = useParams();
@@ -22,7 +23,9 @@ const MovieDetails = () => {
         fetchMovieDetails();
     }, [id]);
 
-    if (loading) return <div>Loading...</div>;
+    if (loading) return <div className='spinners'><HashLoader
+        color="#23e836"
+    /></div>;
     if (error) return <div>{error}</div>;
 
     return (
